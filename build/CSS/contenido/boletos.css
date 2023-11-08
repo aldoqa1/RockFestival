@@ -1,0 +1,40 @@
+.boletos {
+  background-color: rgb(7, 228, 172);
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0rem;
+}
+.boletos__tabla {
+  padding: 0rem;
+  width: 100%;
+  margin: 2rem auto;
+}
+.boletos__tabla ul {
+  padding: 0rem;
+  width: 80%;
+  margin: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 0 2px 5px black;
+  transition: all 0.5s ease;
+}
+.boletos__tabla ul:hover {
+  box-shadow: 0 0 2px 5px rgb(226, 89, 215);
+}
+.boletos__tabla li {
+  width: 100%;
+  margin: auto;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+.boletos__tabla li:first-child {
+  color: rgb(255, 255, 255);
+  background-color: rgb(226, 89, 215);
+}
+.boletos__tabla li:last-child {
+  color: rgb(255, 255, 255);
+  background-color: rgb(133, 10, 190);
+}

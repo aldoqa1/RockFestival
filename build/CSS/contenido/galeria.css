@@ -1,0 +1,88 @@
+.galeria__fotos {
+  padding-bottom: 4rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  column-gap: 1.5rem;
+}
+@media (max-width: 1000px) {
+  .galeria__fotos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .galeria__fotos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .galeria__fotos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+.galeria__fotos img {
+  width: 100%;
+  height: auto;
+  margin: 0rem 0.25rem;
+  transition: all 0.6s ease;
+  border-radius: 1rem;
+}
+.galeria__fotos img:hover {
+  border-radius: 50%;
+  box-shadow: 0 0 8px 8px rgb(133, 10, 190);
+}
+
+.layFijo {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  padding-top: 3rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.layFijo picture {
+  text-align: center;
+}
+.layFijo img {
+  width: 80%;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 3rem;
+  box-shadow: 0 0 5px 5px gray;
+}
+
+@media (max-width: 1000px) and (orientation: landscape) {
+  .orientation picture {
+    padding-top: 0rem;
+    width: 52vw;
+    height: auto;
+    margin: 0.5rem;
+  }
+  .orientation img {
+    border-radius: 1rem;
+  }
+}
+
+.bodyFijo {
+  overflow: hidden;
+}
+
+.botonX {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 1.5rem 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0rem;
+}

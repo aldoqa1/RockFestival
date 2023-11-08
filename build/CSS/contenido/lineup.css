@@ -1,0 +1,47 @@
+.lineup {
+  background-color: rgb(226, 89, 215);
+  padding: 2rem 1rem;
+  padding-top: 3rem;
+}
+
+.lineup__calendario1, .lineup__calendario2 {
+  margin: 3rem auto;
+  width: 80%;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 3px 4px rgb(0, 0, 0);
+  transition: all 0.5s ease;
+}
+.lineup__calendario1 img, .lineup__calendario2 img {
+  width: 50%;
+  height: auto;
+}
+.lineup__calendario1 ul, .lineup__calendario2 ul {
+  padding: 0rem;
+}
+.lineup__calendario1 li, .lineup__calendario2 li {
+  width: 100%;
+  text-align: start;
+  padding: 1rem;
+  padding-left: 3rem;
+  font-size: 2rem;
+}
+.lineup__calendario1:hover, .lineup__calendario2:hover {
+  border: none;
+  box-shadow: 0 1px 3px 3px red;
+  border-radius: 15%;
+  overflow: hidden;
+}
+
+.lineup__calendario1 {
+  background-color: rgb(7, 228, 172);
+}
+.lineup__calendario1 li:nth-child(odd) {
+  background-color: #059a74;
+}
+
+.lineup__calendario2 {
+  background-color: rgb(245, 243, 110);
+}
+.lineup__calendario2 li:nth-child(odd) {
+  background-color: #f0ed26;
+}

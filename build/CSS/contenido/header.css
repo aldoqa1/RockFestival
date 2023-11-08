@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 10rem;
+  background-color: rgb(7, 228, 172);
+  margin: 0rem auto;
+}
+.header a {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: all 0.5s ease;
+  margin: auto 1rem;
+}
+.header a:hover {
+  color: rgb(245, 243, 110);
+}
+.header__titulo {
+  margin: 0rem auto;
+  font-size: 3rem;
+}
+.header__navegacion {
+  margin: auto auto;
+}

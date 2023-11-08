@@ -1,0 +1,13 @@
+.footer {
+  background-color: rgb(226, 89, 215);
+  color: rgb(255, 255, 255);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__texto {
+  width: fit-content;
+  margin: 0rem auto;
+  text-align: center;
+}

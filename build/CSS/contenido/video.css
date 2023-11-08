@@ -1,0 +1,82 @@
+.video {
+  max-height: 70rem;
+  overflow: hidden;
+  position: relative;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.video__bkg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, rgb(2, 0, 36) 0%, rgb(205, 27, 207) 4%, rgb(136, 27, 135) 6%, rgb(133, 31, 137) 8%, rgb(38, 161, 222) 74%, rgb(0, 212, 255) 100%);
+  opacity: 0.3;
+}
+@media (max-width: 1300px) {
+  .video__bkg {
+    height: 99.7%;
+  }
+}
+@media (max-width: 1000px) {
+  .video__bkg {
+    height: 99%;
+  }
+}
+@media (max-width: 768px) {
+  .video__bkg {
+    height: 98.5%;
+  }
+}
+
+.video__texto {
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  padding-left: 10rem;
+}
+.video__texto h2 {
+  margin: 1rem 0rem;
+  font-size: 5rem;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .video__texto {
+    padding: 0rem;
+    align-items: center;
+  }
+  .video__texto h2 {
+    font-size: 3.5rem;
+  }
+  .video__texto .boton {
+    font-size: 2rem;
+  }
+}
+
+.boton {
+  background-color: rgb(226, 89, 215);
+  margin: 0rem;
+  padding: 1.5rem 2rem;
+  border-radius: 3rem;
+  width: fit-content;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 2.5rem;
+  transition: all 1s ease;
+}
+.boton:hover {
+  background-color: rgb(7, 228, 172);
+  box-shadow: 0 0 3px 4px rgb(245, 243, 110);
+}

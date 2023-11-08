@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.contenedor {
+  width: 90%;
+  margin: 0rem auto;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.7rem;
+}
+
+.reset-p-m {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.negro {
+  color: rgb(0, 0, 0);
+}
+
+.blanco {
+  color: rgb(255, 255, 255);
+}
+
+.rojo {
+  color: red;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 0rem auto;
+  text-align: center;
+}
+
+.contenedor-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+@media (max-width: 768px) {
+  .contenedor-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.5rem;
+  }
+}
+.contenedor-grid-2 li {
+  font-weight: 700;
+  list-style: none;
+}
+.contenedor-grid-2 span {
+  font-weight: 400;
+}
+
+.headerFijo {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  box-shadow: 0 0 3px 3px rgb(0, 0, 0);
+}
+
+.scrollBody {
+  padding-top: 10rem;
+}
